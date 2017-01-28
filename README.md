@@ -19,4 +19,6 @@ terdiri dari :
   <li>webpack</li>
   <li>webpack-validator</li>
 </ul>
+    for updating just npm update 
+    and all will update
 </p>
