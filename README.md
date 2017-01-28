@@ -19,6 +19,10 @@ terdiri dari :
   <li>webpack</li>
   <li>webpack-validator</li>
 </ul>
-    for updating just npm update 
-    and all will update
+    update dengan  npm update <br>
+    untuk client sediakan app.js pada root folder client <br>
+    sebagai root react aplikasi <br>
+    untuk hasil bundle webpack sedia kan file app.js di <br>
+    /public/javascripts/ <br>
+    dan buat index html pada root folder public dan include app.js pada /public/javascripts/ <br>
 </p>
