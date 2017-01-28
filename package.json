@@ -1,0 +1,29 @@
+{
+    "name": "ceritakita",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www"
+    },
+    "dependencies": {
+        "body-parser": "*",
+        "cookie-parser": "*",
+        "debug": "*",
+        "express": "*",
+        "jade": "*",
+        "morgan": "*",
+        "serve-favicon": "*",
+        "babel": "*",
+        "webpack": "*",
+        "react": "*",
+        "react-dom": "*",
+        "babel-core": "*",
+        "babel-loader": "*",
+        "babel-preset-react": "*",
+        "babel-preset-es2015": "*",
+        "react-router": "*",
+        "redux": "*",
+        "webpack-validator": "*",
+        "redux-thunk": "*"
+    }
+}
