@@ -24,6 +24,7 @@
         "react-router": "*",
         "redux": "*",
         "webpack-validator": "*",
-        "redux-thunk": "*"
+        "redux-thunk": "*",
+        "knex": "*"
     }
 }
