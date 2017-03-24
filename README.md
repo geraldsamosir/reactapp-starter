@@ -17,6 +17,8 @@ terdiri dari :
   <li>Redux</li>
   <li>Redux-thunk</li>
   <li>webpack</li>
+  <li>nodemon<li>
+  <li>npm-run-all</li>
   <li>webpack-validator</li>
 </ul>
     update dengan  npm update <br>
