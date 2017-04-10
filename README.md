@@ -19,7 +19,7 @@ terdiri dari :
   <li>style-loader</li>
   <li>css-loader</li>
   <li>webpack</li>
-  <li>nodemon<li>
+  <li>nodemon<li> 
   <li>npm-run-all</li>
   <li>webpack-validator</li>
 </ul>
