@@ -16,14 +16,21 @@ module.exports = validate({
 
 
     module: {
-        loaders: [{
+        loaders: [
+            {
             test: /\.jsx?$/,
             exclude: /node_modules/,
             loader: 'babel',
-            query: {
-                presets: ['es2015', 'react']
+                query: {
+                    presets: ['es2015', 'react']
+                }
+            },
+            {
+                test: /\.css$/,
+                loader: 'style-loader!css-loader'
+
             }
-        }]
+        ]
     },
     plugins: [
         new webpack.ProvidePlugin({
