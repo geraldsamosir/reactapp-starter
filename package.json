@@ -3,7 +3,10 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "start": "node ./bin/www"
+        "start": "npm-run-all --parallel server client ",
+        "server": "nodemon ./bin/www",
+        "client": "cd client && webpack --watch"
+
     },
     "dependencies": {
         "body-parser": "*",
@@ -24,6 +27,8 @@
         "react-router": "*",
         "redux": "*",
         "webpack-validator": "*",
+        "style-loader": "*",
+        "css-loader": "*",
         "redux-thunk": "*",
         "knex": "*"
     }
